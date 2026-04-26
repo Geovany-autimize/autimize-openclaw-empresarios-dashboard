@@ -2,8 +2,8 @@ window.dashboardData = {
   project: {
     name: 'OpenClaw para Empresários',
     owner: 'Geovany + Bia',
-    status: '4 etapas concluídas · 3 em andamento',
-    updatedAt: '22/04/2026 12:46 UTC',
+    status: '4 etapas concluídas · 4 em andamento',
+    updatedAt: '26/04/2026 08:50 UTC',
     platform: 'Kiwify',
     target: 'Produto validado e vendável ainda nesta semana',
     promise: 'Implantar o primeiro agente de IA dentro da empresa em uma tarde.',
@@ -14,6 +14,14 @@ window.dashboardData = {
       {
         label: 'Landing no subdomínio',
         url: 'https://empresarios.autimize.com.br'
+      },
+      {
+        label: 'Lista de espera',
+        url: 'https://empresarios.autimize.com.br/waitlist'
+      },
+      {
+        label: 'Área protegida de leads',
+        url: 'https://empresarios.autimize.com.br/admin'
       },
       {
         label: 'Dashboard público',
@@ -27,7 +35,7 @@ window.dashboardData = {
     { label: 'Etapas em andamento', value: '3', note: 'narrativa, criativos e infraestrutura pública' },
     { label: 'Módulos do curso', value: '10', note: 'currículo já fechado' },
     { label: 'Criativos mapeados', value: '10', note: 'inventário pronto para geração com Image V2' },
-    { label: 'Superfícies no ar', value: '2', note: 'landing + dashboard público' }
+    { label: 'Superfícies no ar', value: '3', note: 'landing + dashboard público + lista de espera protegida' }
   ],
   liveState: [
     {
@@ -49,10 +57,16 @@ window.dashboardData = {
       note: 'captação começa depois de checkout, pixels e campanhas'
     },
     {
+      label: 'Leads lista de espera',
+      value: '1',
+      status: 'em andamento',
+      note: 'captura ativa em /waitlist; consulta protegida em /admin'
+    },
+    {
       label: 'Checkout Kiwify',
       value: 'pendente',
       status: 'próximo',
-      note: 'o botão da landing continua aguardando a URL final'
+      note: 'o botão de compra foi temporariamente direcionado para lista de espera'
     },
     {
       label: 'Subdomínio',
